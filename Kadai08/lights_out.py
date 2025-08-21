@@ -52,7 +52,7 @@ start_time = time.time()
 devil = False
 
 devil_mode = random.randint(1,5)
-devil_mode = 5
+
 if devil_mode == 5:
     print("裏モード:devil\n悪魔が気まぐれに盤面を全て崩します")
     devil = True
